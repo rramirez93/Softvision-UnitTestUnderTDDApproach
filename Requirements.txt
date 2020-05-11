@@ -1,7 +1,0 @@
-Escenario: Implementar un metodo que devuelva el cociente entre un dividendo y un divisor a partir de un user input
-con tipo de dato string
-
-Given: Un dividendo (string)
-And: Un divisor (string)
-When: {dividendo} dividido {divisor} 
-Then: deberia devolver el cociente (numero)
