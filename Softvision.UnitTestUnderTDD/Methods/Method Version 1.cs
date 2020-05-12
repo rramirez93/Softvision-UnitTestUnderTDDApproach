@@ -4,10 +4,10 @@ namespace Softvision.UnitTestUnderTDD.Methods
 {
     public static partial class MathUtils
     {
-        //Version 1
+        //Version 1 (Fake)
         public static int Divide(string dividend, string divisor)
         {
-            var result = int.Parse(dividend) / int.Parse(divisor);
+            var result = 5;
             Console.WriteLine($"The result of {dividend} / {divisor} is {result} \n");
             return result;
         }

@@ -4,14 +4,14 @@
 //{
 //    public static partial class MathUtils
 //    {
-//        //Version 3
-//        public static int Divide(string dividend, string divisor)
+//        //Version 4
+//        public static decimal Divide(string dividend, string divisor)
 //        {
-//            int result = 0;
+//            decimal result = 0;
 
 //            try
 //            {
-//                result = int.Parse(dividend) / int.Parse(divisor);
+//                result = decimal.Parse(dividend) / decimal.Parse(divisor);
 //                Console.WriteLine($"The result of {dividend} / {divisor} is {result} \n");
 //            }
 

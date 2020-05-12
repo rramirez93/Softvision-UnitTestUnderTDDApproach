@@ -4,7 +4,7 @@
 //{
 //    public static partial class MathUtils
 //    {
-//        //Version 3
+//        //Version 2
 //        public static int Divide(string dividend, string divisor)
 //        {
 //            int result = 0;
@@ -18,11 +18,6 @@
 //            catch (FormatException)
 //            {
 //                throw new FormatException("One or more of the argument provided are not numbers");
-//            }
-
-//            catch (DivideByZeroException)
-//            {
-//                throw new DivideByZeroException("Cannot divide by zero");
 //            }
 
 //            return result;
